@@ -1,3 +1,8 @@
+Simple onboarding form for employees which sends a email to HR
+when the forum has been submitted. It has basic form validation.
+
+
+
 pip install flask
 pip install flask-mail
 run app.py
