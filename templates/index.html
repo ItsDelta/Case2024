@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding Form</title>
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a  href="http://127.0.0.1:5000/">
+            <img src="static/img/logo.jpg" alt="logo" id="logo">
+            </a>
+        </nav>
+    </header>
+
+    <h1>Onboarding form</h1>
+    <form action="/submit" method="post">
+        <label >Fornavn:</label>
+        <input type="text" name="fornavn" required><br><br>
+
+        <label >Etternavn:</label>
+        <input type="text"  name="etternavn" required><br><br>
+
+
+        <label >Epost:</label>
+        <input type="email" name="e-post" required><br><br>
+
+
+        <label >Stilling:</label>
+        <input type="text" name="stilling" required><br><br>
+
+        <label >Adresse:</label>
+        <input type="text"  name="adresse" required><br><br>
+
+        <label >Kontonummer:</label>
+        <input type="text"  name="kontonummer" required><br><br>
+
+
+        <label>Pårørende:</label>
+        <input type="text"  name="pårørende" required><br><br>
+
+
+        <label >Startdato:</label>
+        <input type="date"  name="startdato" required><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>
