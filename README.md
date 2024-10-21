@@ -1,5 +1,5 @@
-Simple onboarding form using Flask for employees which sends a email to HR
-when the forum has been submitted. It has basic form validation..
+Simple onboarding form using Flask for employees which sends a email detailing the employee information
+to HR when the form has been submitted. It has basic form validation..
 
 
 
