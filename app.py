@@ -1,4 +1,3 @@
-# app.py
 from flask import Flask, render_template, request
 import json
 import os
@@ -38,7 +37,7 @@ def submit():
         with open(DATA_FILE, 'r') as f:
             data = json.load(f)
     else:
-        data = []
+        return "File not found"
 
     data.append(formData)
 
